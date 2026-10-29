@@ -86,6 +86,28 @@
         ],
         "pulls": [
           {
+            "title": "4927 readme update",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2263",
+            "created_at": "2026-10-29T17:06:00+00:00",
+            "updated_at": "2026-10-29T17:09:17+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "serverless-mom",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4950: Update employment flow validation UI",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2262",
+            "created_at": "2026-10-29T15:34:54+00:00",
+            "updated_at": "2026-10-29T15:35:09+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "jakewheeler",
+            "is_new": true
+          },
+          {
             "title": "FFS-4948: Update activity hub alerting",
             "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2261",
             "created_at": "2026-10-28T20:53:18+00:00",
@@ -100,7 +122,7 @@
             "title": "FFS-4945 Month selection input screens error handling",
             "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2260",
             "created_at": "2026-10-28T19:52:44+00:00",
-            "updated_at": "2026-10-29T14:08:40+00:00",
+            "updated_at": "2026-10-29T16:34:02+00:00",
             "merged_at": null,
             "state": "open",
             "merged": false,
@@ -111,10 +133,10 @@
             "title": "FFS-4949: Self-attestation validation updates",
             "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2259",
             "created_at": "2026-10-28T14:49:09+00:00",
-            "updated_at": "2026-10-29T14:52:35+00:00",
-            "merged_at": null,
-            "state": "open",
-            "merged": false,
+            "updated_at": "2026-10-29T17:14:23+00:00",
+            "merged_at": "2026-10-29T17:06:05+00:00",
+            "state": "closed",
+            "merged": true,
             "author": "jakewheeler",
             "is_new": true
           },
@@ -1008,6 +1030,28 @@
         "issues": [],
         "pulls": [
           {
+            "title": "Add fallback token",
+            "url": "https://github.com/DSACMS/super-changelog/pull/178",
+            "created_at": "2026-10-29T18:01:03+00:00",
+            "updated_at": "2026-10-29T18:01:03+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "DinneK",
+            "is_new": true
+          },
+          {
+            "title": "Add weekly condensed changelog summary for 2026-10-29",
+            "url": "https://github.com/DSACMS/super-changelog/pull/177",
+            "created_at": "2026-10-29T15:44:04+00:00",
+            "updated_at": "2026-10-29T15:47:01+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "DinneK",
+            "is_new": true
+          },
+          {
             "title": "\ud83d\udccb Changelog Summary: 2026-10-22 to 2026-10-29",
             "url": "https://github.com/DSACMS/super-changelog/pull/176",
             "created_at": "2026-10-29T15:02:36+00:00",
@@ -1033,7 +1077,7 @@
             "title": "\ud83d\udccb Changelog Summary: 2026-10-09 to 2026-10-16",
             "url": "https://github.com/DSACMS/super-changelog/pull/174",
             "created_at": "2026-10-16T03:36:35+00:00",
-            "updated_at": "2026-10-29T14:29:07+00:00",
+            "updated_at": "2026-10-29T15:47:04+00:00",
             "merged_at": "2026-10-29T14:29:07+00:00",
             "state": "closed",
             "merged": true,
@@ -1044,7 +1088,7 @@
             "title": "Weekly Changelog Summary: 2025-06-18 to 2025-06-25",
             "url": "https://github.com/DSACMS/super-changelog/pull/173",
             "created_at": "2026-10-16T03:36:33+00:00",
-            "updated_at": "2026-10-29T14:28:29+00:00",
+            "updated_at": "2026-10-29T15:47:07+00:00",
             "merged_at": "2026-10-29T14:28:29+00:00",
             "state": "closed",
             "merged": true,
@@ -1055,7 +1099,7 @@
             "title": "Weekly Changelog Summary: 2026-01-30 to 2026-02-06",
             "url": "https://github.com/DSACMS/super-changelog/pull/172",
             "created_at": "2026-10-09T16:56:42+00:00",
-            "updated_at": "2026-10-29T14:28:02+00:00",
+            "updated_at": "2026-10-29T15:47:09+00:00",
             "merged_at": "2026-10-29T14:28:02+00:00",
             "state": "closed",
             "merged": true,
@@ -1066,7 +1110,7 @@
             "title": "\ud83d\udccb Changelog Summary: 2026-10-02 to 2026-10-09",
             "url": "https://github.com/DSACMS/super-changelog/pull/171",
             "created_at": "2026-10-09T16:56:41+00:00",
-            "updated_at": "2026-10-29T14:27:40+00:00",
+            "updated_at": "2026-10-29T15:47:11+00:00",
             "merged_at": "2026-10-29T14:27:40+00:00",
             "state": "closed",
             "merged": true,
@@ -1272,98 +1316,302 @@
         "pulls": [],
         "commits": [
           {
+            "message": "docs(rubygems): record post-convergence retrospective\n\nSynthesize accessible feature history with comparative analysis and bounded methodology experiments. Close T021 lifecycle references while preserving evidence limits.\n\nSDD: 004-rubygems-support/T021\n\nValidation: chronology, local links, commit references, certificate hygiene and git diff --check passed. No deterministic rerun for prose-only changes.",
+            "url": "https://github.com/DSACMS/libyears/commit/1fcbd89b6f94fe49f0d55a59965f6330a2d1e12e",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T20:59:50+00:00"
+          },
+          {
+            "message": "docs(rubygems): reconcile feature completion records\n\nRecord authoritative completed T019 convergence and preserve distinct review, trust and resolver observations for pending T021. Reconcile ROADMAP with completed Feature 004 without changing radar states or product scope.\n\nSDD: 004-rubygems-support/T020\n\nVerification: completion references and artifact consistency checked; git diff --check passed. No tests rerun for bookkeeping alone.",
+            "url": "https://github.com/DSACMS/libyears/commit/577c81ef335a53c54084d15265690583c8aa49cf",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T20:18:53+00:00"
+          },
+          {
+            "message": "docs(rubygems): record authorized repository validation\n\nRecord accepted human-supplied release evidence, verified CA-bundle use, target integrity and redundant smoke disposition. Preserve environmental validation history and leave independent convergence pending.\n\nSDD: 004-rubygems-support/T018",
+            "url": "https://github.com/DSACMS/libyears/commit/ee79d35b79b82db6c8457cb14ba35bab39a43dc2",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T19:44:37+00:00"
+          },
+          {
+            "message": "docs(rubygems): record authorized repository validation\n\nRecord partial read-only dpc-admin human/JSON dogfood and unchanged-target evidence. Keep T018 blocked because verified RubyGems TLS failed for all 67 eligible candidates; successful Ruby publication evidence remains unavailable.\n\nSDD: 004-rubygems-support/T018 (incomplete)\n\nVerification: available release checks passed; cite T017 deterministic gate (289 tests, 52/52 ACs). Smoke: UNAVAILABLE. No runtime changes.",
+            "url": "https://github.com/DSACMS/libyears/commit/bb6505fc0f9a63ffadeb8de218ab907aa4568b61",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T19:02:23+00:00"
+          },
+          {
+            "message": "test(rubygems): record final deterministic integration gate",
+            "url": "https://github.com/DSACMS/libyears/commit/6e27d1349b3e7f848dec30aaf6a44d8ada282a6e",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T18:41:55+00:00"
+          },
+          {
+            "message": "test(rubygems): verify cross-boundary evidence failures",
+            "url": "https://github.com/DSACMS/libyears/commit/106997a9f5cd118ae0e9472371231ac932677beb",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T18:39:37+00:00"
+          },
+          {
+            "message": "feat(rubygems): activate coherent lock snapshot scanning\n\nSDD: 004-rubygems-support/T015\nTests: focused mixed/output/CLI 62 passed; full deterministic suite 285 passed",
+            "url": "https://github.com/DSACMS/libyears/commit/0af7e1174aacf4de889c789748ddef7e9f12b472",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T18:32:24+00:00"
+          },
+          {
+            "message": "feat(rubygems): schedule authorized candidates deterministically\n\nSDD: 004-rubygems-support/T014\nTests: Phase 4 gate 68 passed; required regressions 91 passed; full deterministic suite 273 passed",
+            "url": "https://github.com/DSACMS/libyears/commit/27cb271e3f949d8619c11fb4d8807aa197f6f7e0",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T18:19:09+00:00"
+          },
+          {
+            "message": "feat(rubygems): pace registry requests and enforce cooldown\n\nSDD: 004-rubygems-support/T013\nTests: 46 focused registry and transport tests passed",
+            "url": "https://github.com/DSACMS/libyears/commit/9716b6f13496c0e5ad07655f8d27bbd9162e5d0d",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T18:15:25+00:00"
+          },
+          {
+            "message": "feat(rubygems): canonicalize observable publication evidence\n\nSDD: 004-rubygems-support/T012\nTests: 34 focused registry and metric tests passed",
+            "url": "https://github.com/DSACMS/libyears/commit/ab71486da61210234a20e613043d2e3765bbbcd6",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T18:14:05+00:00"
+          },
+          {
+            "message": "feat(rubygems): validate public registry identity and artifacts\n\nSDD: 004-rubygems-support/T011\nTests: 12 focused deterministic tests passed",
+            "url": "https://github.com/DSACMS/libyears/commit/0ec41fd199e17bdc1023e35882ab78d240b6e3c9",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T18:12:02+00:00"
+          },
+          {
+            "message": "feat(registry): retain safe rate-limit response metadata",
+            "url": "https://github.com/DSACMS/libyears/commit/9f546c866a25f8bf4d1df81c870dc0e81054033a",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T18:03:34+00:00"
+          },
+          {
+            "message": "feat(registry): add opt-in bounded verified transport",
+            "url": "https://github.com/DSACMS/libyears/commit/c14c37e67d3343d0a0f8c6807e61a5aa5f3a811b",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T18:00:35+00:00"
+          },
+          {
+            "message": "test(registry): preserve default and injected transport contracts",
+            "url": "https://github.com/DSACMS/libyears/commit/464f1d6722df3fe87dfb2ebbb88630a35df2f303",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T17:57:38+00:00"
+          },
+          {
+            "message": "feat(rubygems): discover internal root lock source results",
+            "url": "https://github.com/DSACMS/libyears/commit/bbf0e3611ec2a45f4e48f5ae505c08ad876e43a6",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T17:55:05+00:00"
+          },
+          {
+            "message": "feat(rubygems): match direct lock snapshot evidence",
+            "url": "https://github.com/DSACMS/libyears/commit/b26663531837977733f62e5dec4c7524f88fa960",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T17:52:59+00:00"
+          },
+          {
+            "message": "feat(rubygems): gate candidates on public source authority",
+            "url": "https://github.com/DSACMS/libyears/commit/72f0918dff953602cca6f99969fe1edc548d4fa5",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T17:51:10+00:00"
+          },
+          {
+            "message": "feat(rubygems): add optional typed provenance records",
+            "url": "https://github.com/DSACMS/libyears/commit/c95a937a64dd4f2a640c03c565b7ad4508cd9ce1",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T17:49:58+00:00"
+          },
+          {
+            "message": "feat(rubygems): reject unsupported and malformed lock evidence",
+            "url": "https://github.com/DSACMS/libyears/commit/9b234e9145f02d0d9e2839a6ba3378b9cedc2cdc",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T17:46:57+00:00"
+          },
+          {
+            "message": "feat(rubygems): preserve lock source and nested framing",
+            "url": "https://github.com/DSACMS/libyears/commit/9514f60a436ce2abaca19aa7cbf39cb041cdff1a",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T17:45:31+00:00"
+          },
+          {
+            "message": "feat(rubygems): parse bounded lock snapshot structure",
+            "url": "https://github.com/DSACMS/libyears/commit/d7cf220b635e235311b65fe1eb95ee985ce2b189",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T17:44:47+00:00"
+          },
+          {
+            "message": "docs(rubygems): approve Feature 004 task graph",
+            "url": "https://github.com/DSACMS/libyears/commit/cf0490bda701e83183053a49e046f56adcb46cee",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T17:40:56+00:00"
+          },
+          {
+            "message": "docs(rubygems): clarify Feature 004 task graph",
+            "url": "https://github.com/DSACMS/libyears/commit/c34600d1fdcdd4efeb9cae3eaf990d7c9c0fae8a",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T17:35:44+00:00"
+          },
+          {
+            "message": "docs(rubygems): draft Feature 004 task graph",
+            "url": "https://github.com/DSACMS/libyears/commit/38df5a740b20121978ea4349c595b63e1f1288d5",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T17:29:03+00:00"
+          },
+          {
+            "message": "docs(rubygems): approve Feature 004 architecture",
+            "url": "https://github.com/DSACMS/libyears/commit/1fdaf0d0356a1de8c0564dfad2b7a0b4190c9f64",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T17:22:07+00:00"
+          },
+          {
+            "message": "docs(rubygems): clarify Feature 004 technical plan",
+            "url": "https://github.com/DSACMS/libyears/commit/8b4bf8fb6535bad524fc02bdfdcc5e1beea79a92",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T17:17:46+00:00"
+          },
+          {
+            "message": "docs(rubygems): draft Feature 004 technical plan",
+            "url": "https://github.com/DSACMS/libyears/commit/223032e2b537d11a9dcbbf0eb49248d571373b1e",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T17:09:16+00:00"
+          },
+          {
+            "message": "docs(rubygems): approve Feature 004 specification",
+            "url": "https://github.com/DSACMS/libyears/commit/86be122e7570ed121572b25531f8b3994b2c6766",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T16:58:22+00:00"
+          },
+          {
+            "message": "docs(rubygems): clarify Feature 004 specification",
+            "url": "https://github.com/DSACMS/libyears/commit/3b315696e4d03b5e7aac325b47a800abbade70e0",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T16:40:48+00:00"
+          },
+          {
+            "message": "docs(rubygems): record specification review",
+            "url": "https://github.com/DSACMS/libyears/commit/5c5b69adb810827cd4c8e74d1bbbeef44bd34465",
+            "author": "decause-gov",
+            "created_at": "2026-10-27T22:06:07+00:00"
+          },
+          {
+            "message": "docs(rubygems): draft Feature 004 specification",
+            "url": "https://github.com/DSACMS/libyears/commit/c761b113ea19988e7e9ea5ca16b373c1e2c526fb",
+            "author": "decause-gov",
+            "created_at": "2026-10-27T21:50:12+00:00"
+          },
+          {
+            "message": "docs(rubygems): select Feature 004 for specification",
+            "url": "https://github.com/DSACMS/libyears/commit/a16145f5ed88be66e8591c91dd57df0ffc8b7fab",
+            "author": "decause-gov",
+            "created_at": "2026-10-27T21:35:36+00:00"
+          },
+          {
+            "message": "docs(discovery): refine Feature 004 evidence",
+            "url": "https://github.com/DSACMS/libyears/commit/67b7d89ca6f1c48bc92dcd128b19bb478a6ba969",
+            "author": "decause-gov",
+            "created_at": "2026-10-27T21:11:00+00:00"
+          },
+          {
+            "message": "docs(discovery): draft Feature 004 direction",
+            "url": "https://github.com/DSACMS/libyears/commit/df7aee60446795f67da321331f778c3d1457fea7",
+            "author": "decause-gov",
+            "created_at": "2026-10-27T19:27:41+00:00"
+          },
+          {
             "message": "docs(yarn): document Feature 003 retrospective",
-            "url": "https://github.com/DSACMS/libyears/commit/f3d5f441b0b3f6960fefc0d8d725672bf11b8cce",
+            "url": "https://github.com/DSACMS/libyears/commit/be985d1a6faa77097405af7d16fee8bc90e92e84",
             "author": "decause-gov",
             "created_at": "2026-10-27T18:41:44+00:00"
           },
           {
             "message": "docs(yarn): complete Feature 003",
-            "url": "https://github.com/DSACMS/libyears/commit/f32dfa88df73b7939ed2081eb274c7ebbf55d6c5",
+            "url": "https://github.com/DSACMS/libyears/commit/6e24402c1832e7a15bac2d10ffb6743167741b36",
             "author": "decause-gov",
             "created_at": "2026-10-27T18:33:12+00:00"
           },
           {
             "message": "fix(yarn): preserve malformed lock diagnostics",
-            "url": "https://github.com/DSACMS/libyears/commit/c8ad586851577bdd49e1685259de0c2d2f057638",
+            "url": "https://github.com/DSACMS/libyears/commit/ace9ccf69d259ad6041dd0c19e00bf5df2208309",
             "author": "decause-gov",
             "created_at": "2026-10-27T18:28:53+00:00"
           },
           {
             "message": "docs(yarn): skip redundant live registry smoke\n\nT009 already validated the public npm registry and verified HTTPS path across 77 real dependencies. Record T010 as skipped without affecting deterministic correctness or convergence eligibility.\n\nSDD: 003-yarn-lock-evidence/T010",
-            "url": "https://github.com/DSACMS/libyears/commit/05234016261726fb856a3207ab68b18b205548d9",
+            "url": "https://github.com/DSACMS/libyears/commit/ac1f89105e53130f889166670c9178cfcd5b2833",
             "author": "decause-gov",
             "created_at": "2026-10-27T18:23:13+00:00"
           },
           {
             "message": "docs(yarn): record Classic lock dogfood results\n\nRecord read-only live validation against the authorized easi-app root Yarn Classic v1 lockfile. Human and schema-v3 JSON output agreed across 77 measured production dependencies.\n\nSDD: 003-yarn-lock-evidence/T009",
-            "url": "https://github.com/DSACMS/libyears/commit/ca21fbe98c0d0272c8c7b2dda6afb27c82769928",
+            "url": "https://github.com/DSACMS/libyears/commit/338b9b86017e48f5bd2e03d8e43636d3a49fb534",
             "author": "decause-gov",
             "created_at": "2026-10-27T18:21:26+00:00"
           },
           {
             "message": "test(yarn): cover end-to-end evidence reporting\n\nAdd an offline mixed-repository fixture that verifies Yarn exact-version evidence, partial npm coverage, retained PyPI measurement, schema-v3 JSON, and human output.\n\nRecord the Yarn Classic v1 capability in the Unreleased changelog.\n\nSDD: 003-yarn-lock-evidence/T008\n\nTests: 186 passed",
-            "url": "https://github.com/DSACMS/libyears/commit/044d13c74cc4ab2f31c51c5aec1f8c2d426eb5eb",
+            "url": "https://github.com/DSACMS/libyears/commit/aec3fc0e7b3b051028acf8cdbf219691405c93fa",
             "author": "decause-gov",
             "created_at": "2026-10-27T18:05:01+00:00"
           },
           {
             "message": "feat(npm): activate Yarn evidence reporting\n\nActivate root Yarn Classic v1 evidence with schema-v3 metadata, source availability, human diagnostics, and README documentation.\n\nSDD: 003-yarn-lock-evidence/T007\n\nTests: 44 focused tests; 185 deterministic suite tests passed",
-            "url": "https://github.com/DSACMS/libyears/commit/8fb0ab853c5f2c71b94427389b61fea423dfa0c8",
+            "url": "https://github.com/DSACMS/libyears/commit/be724ad62a5ba86d8fa3bd46b063fb857c7b57f7",
             "author": "decause-gov",
             "created_at": "2026-10-27T18:00:22+00:00"
           },
           {
             "message": "feat(npm): use Yarn lock evidence for npm dependencies\n\nConnect the Classic v1 parser and textual matcher behind the internal npm evidence selector. Preserve source rejection and dependency failure isolation while public scans retain the existing package-lock path.\n\nSDD: 003-yarn-lock-evidence/T006\n\nTests: 54 focused Yarn/npm tests, 13 npm registry tests, and all 180 deterministic tests passed.",
-            "url": "https://github.com/DSACMS/libyears/commit/f0ac68794f6574979d35bd150e01f596f4147898",
+            "url": "https://github.com/DSACMS/libyears/commit/f420602940343474dd0760f67c4f7c9b2215a57b",
             "author": "decause-gov",
             "created_at": "2026-10-27T17:56:45+00:00"
           },
           {
             "message": "refactor(npm): centralize resolution source selection\n\nSDD: 003-yarn-lock-evidence/T005\n\nKeep source selection internal until T007 and reserve Yarn dispatch for T006.\nReuse package-lock resolution with the selector presence result.\n\nTests: 46 focused npm/registry tests and 175 deterministic tests passed.",
-            "url": "https://github.com/DSACMS/libyears/commit/96c4d7c0d3bba6d70f01b1c24af7d20cc230f345",
+            "url": "https://github.com/DSACMS/libyears/commit/6a8dea6c360ce9615455c615e4893ff3c0c95374",
             "author": "decause-gov",
             "created_at": "2026-10-27T17:51:36+00:00"
           },
           {
             "message": "refactor(scan): model source availability explicitly\n\nSDD: 003-yarn-lock-evidence/T004\nTests: 26 focused tests and 168 full-suite tests passed.",
-            "url": "https://github.com/DSACMS/libyears/commit/ccff52258167f17a88ad9b00ba581316655cb117",
+            "url": "https://github.com/DSACMS/libyears/commit/6b13a1b64995b9778220ff0923cb467c6d2cceff",
             "author": "decause-gov",
             "created_at": "2026-10-27T17:47:25+00:00"
           },
           {
             "message": "feat(npm): match declarations to Yarn selectors\n\nMatch decoded selectors by exact text and preserve dependency-level failures without activating Yarn selection.\n\nSDD: 003-yarn-lock-evidence/T003\nTests: 10 focused matcher tests, 42 parser/npm tests, 165 full-suite tests passed",
-            "url": "https://github.com/DSACMS/libyears/commit/1e6279a1b44502b8d83f7ea0ec685907f40a8fa7",
+            "url": "https://github.com/DSACMS/libyears/commit/28220479cc226917894a44f928f1fcc14107ef91",
             "author": "decause-gov",
             "created_at": "2026-10-27T17:44:04+00:00"
           },
           {
             "message": "feat(yarn): parse bounded Classic v1 entries",
-            "url": "https://github.com/DSACMS/libyears/commit/7051412ebd67a5452df4039f81d4982eedd78c8c",
+            "url": "https://github.com/DSACMS/libyears/commit/e2a801da1ae61b60b529373b917a7da9d69b93b1",
             "author": "decause-gov",
             "created_at": "2026-10-27T17:40:17+00:00"
           },
           {
             "message": "feat(yarn): recognize Classic v1 lockfiles",
-            "url": "https://github.com/DSACMS/libyears/commit/cf9fab8819a5d7a7aae2f7555753e0f37deffe48",
+            "url": "https://github.com/DSACMS/libyears/commit/a93e84c696c4faa5b2fccdef3c4945151cbf5fb6",
             "author": "decause-gov",
             "created_at": "2026-10-27T17:36:50+00:00"
           },
           {
             "message": "docs(yarn): approve Feature 003 implementation plan",
-            "url": "https://github.com/DSACMS/libyears/commit/e505005b3c964d74c20cb6de0cce1189e9408727",
+            "url": "https://github.com/DSACMS/libyears/commit/fe8202537ea63a28b4f98631f02db094b333679b",
             "author": "decause-gov",
             "created_at": "2026-10-27T17:29:58+00:00"
           },
           {
             "message": "docs(yarn): approve Feature 003 technical plan",
-            "url": "https://github.com/DSACMS/libyears/commit/5c74a95d2a5c95c30adc936c5666dbf6c72e688f",
+            "url": "https://github.com/DSACMS/libyears/commit/d372b971c6cd365b963bba05a4413df722da71d9",
             "author": "decause-gov",
             "created_at": "2026-10-27T17:06:09+00:00"
           },
           {
             "message": "docs(yarn): approve Feature 003 specification",
-            "url": "https://github.com/DSACMS/libyears/commit/91dbc0d13dc75789c47d5f21a714b62e96b40881",
+            "url": "https://github.com/DSACMS/libyears/commit/2cf4b2a27b3dbf920645877a35aa3aa51d6dc9a0",
             "author": "decause-gov",
             "created_at": "2026-10-27T16:38:36+00:00"
           }
@@ -1379,6 +1627,7 @@
               {
                 "category": "Added",
                 "items": [
+                  "Measure direct RubyGems dependencies from a bounded root `Gemfile.lock` snapshot,",
                   "Use root Yarn Classic v1 `yarn.lock` evidence to measure direct npm production",
                   "Scan direct npm production dependencies from the root `package.json`, using",
                   "Scan npm and PyPI dependencies together, with repository-wide and",
@@ -1401,7 +1650,7 @@
       "start": "2026-10-22",
       "end": "2026-10-29"
     },
-    "generated_at": "2026-10-29T15:24:26.104874+00:00",
+    "generated_at": "2026-10-29T18:02:15.653042+00:00",
     "total_repo_count": 103
   },
   "GSA-SHARE-IT": {
@@ -1558,7 +1807,7 @@
       "start": "2026-10-22",
       "end": "2026-10-29"
     },
-    "generated_at": "2026-10-29T15:34:35.648336+00:00",
+    "generated_at": "2026-10-29T18:13:13.887614+00:00",
     "total_repo_count": 8
   },
   "CMS-Enterprise": {
@@ -1684,7 +1933,7 @@
             "title": "[NOREF] update requester data",
             "url": "https://github.com/CMS-Enterprise/easi-app/pull/3580",
             "created_at": "2026-10-23T16:38:23+00:00",
-            "updated_at": "2026-10-23T16:43:42+00:00",
+            "updated_at": "2026-10-29T17:04:45+00:00",
             "merged_at": null,
             "state": "open",
             "merged": false,
@@ -1872,10 +2121,10 @@
         "issues": [],
         "pulls": [
           {
-            "title": "[MINT-3910] Email Blast Notification Settings",
+            "title": "[MINT-3910, MINT-3911, MINT-3912] Email Blast Notification Settings",
             "url": "https://github.com/CMS-Enterprise/mint-app/pull/2635",
             "created_at": "2026-10-29T14:13:43+00:00",
-            "updated_at": "2026-10-29T14:56:48+00:00",
+            "updated_at": "2026-10-29T17:39:42+00:00",
             "merged_at": null,
             "state": "open",
             "merged": false,
@@ -1886,10 +2135,10 @@
             "title": "[MINT-3853] Group Filtered View Report",
             "url": "https://github.com/CMS-Enterprise/mint-app/pull/2634",
             "created_at": "2026-10-28T21:20:04+00:00",
-            "updated_at": "2026-10-28T21:37:21+00:00",
-            "merged_at": null,
-            "state": "open",
-            "merged": false,
+            "updated_at": "2026-10-29T17:23:37+00:00",
+            "merged_at": "2026-10-29T17:23:35+00:00",
+            "state": "closed",
+            "merged": true,
             "author": "yiranli624",
             "is_new": true
           },
@@ -1908,7 +2157,7 @@
             "title": "[FEATURE/MINT-3850] Report Filter",
             "url": "https://github.com/CMS-Enterprise/mint-app/pull/2632",
             "created_at": "2026-10-27T18:38:22+00:00",
-            "updated_at": "2026-10-27T18:38:45+00:00",
+            "updated_at": "2026-10-29T17:28:01+00:00",
             "merged_at": null,
             "state": "open",
             "merged": false,
@@ -2515,13 +2764,24 @@
         "issues": [],
         "pulls": [
           {
-            "title": "feat(misc#379): TLS 1.3 only at the edge and the FIPS post-quantum ALB policy in impl and prod",
-            "url": "https://github.com/CMS-Enterprise/ztmf/pull/626",
-            "created_at": "2026-10-29T15:01:23+00:00",
-            "updated_at": "2026-10-29T15:29:44+00:00",
+            "title": "fix(backend): bump golang.org/x/net to v0.62.0 for the html DoS advisory",
+            "url": "https://github.com/CMS-Enterprise/ztmf/pull/627",
+            "created_at": "2026-10-29T15:47:38+00:00",
+            "updated_at": "2026-10-29T15:50:28+00:00",
             "merged_at": null,
             "state": "open",
             "merged": false,
+            "author": "voidspooks",
+            "is_new": true
+          },
+          {
+            "title": "feat(misc#379): TLS 1.3 only at the edge and the FIPS post-quantum ALB policy in impl and prod",
+            "url": "https://github.com/CMS-Enterprise/ztmf/pull/626",
+            "created_at": "2026-10-29T15:01:23+00:00",
+            "updated_at": "2026-10-29T15:41:39+00:00",
+            "merged_at": "2026-10-29T15:41:36+00:00",
+            "state": "closed",
+            "merged": true,
             "author": "voidspooks",
             "is_new": true
           },
@@ -2584,7 +2844,7 @@
             "title": "feat(pr-env): Cognito sign-in and a reaper exemption for demo environments",
             "url": "https://github.com/CMS-Enterprise/ztmf/pull/620",
             "created_at": "2026-10-22T18:24:46+00:00",
-            "updated_at": "2026-10-28T13:27:20+00:00",
+            "updated_at": "2026-10-29T18:04:10+00:00",
             "merged_at": null,
             "state": "open",
             "merged": false,
@@ -2988,7 +3248,7 @@
       "start": "2026-10-22",
       "end": "2026-10-29"
     },
-    "generated_at": "2026-10-29T15:36:07.142170+00:00",
+    "generated_at": "2026-10-29T18:14:14.791799+00:00",
     "total_repo_count": 73
   }
 }
