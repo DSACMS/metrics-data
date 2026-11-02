@@ -1,20 +1,28 @@
-# {{ cookiecutter.project_name }}
+# metrics-data
 
-{{ cookiecutter.project_description }}
+A repository for collecting and organizing project metrics data as JSON.
 
 ## About the Project
-<!-- TODO: Write an about statement for this project. -->
+`metrics-data` provides a central place for JSON data used to understand and report on repository activity and code metrics. It stores source data in a raw layer and prepared data in a homogenized layer so that consumers can find both the original inputs and a consistent version for downstream use.
+
+The raw layer is intended to include:
+- `weekly_changelog.json` from `super-changelog`
+- `code.json` from individual repositories
+- output from `scc`
+- repository properties
+
+The homogenized layer will contain data prepared from those inputs. The tools that perform homogenization are maintained in a separate repository [metrics-dash-backend-tools](https://github.com/DSACMS/metrics-dash-backend-tools). This repository stores their output. The directory layout and data contracts will be documented as they take shape.
 
 ### Project Vision
-<!-- TODO: What is the vision for this project? -->
+Make metrics data across repositories easy to find, compare, and reuse.
 
 ### Project Mission
-<!-- TODO: Write a mission statement for this project. -->
+Collect and organize source and homogenized JSON data in a transparent, documented repository.
 
-### Agency Mission
+<!-- ### Agency Mission -->
 <!-- TODO: Must include since this is an agency-led project -->
 
-### Team Mission
+<!-- ### Team Mission -->
 <!-- TODO: Must include since this is an agency-led project -->
 
 ## Core Team
@@ -67,16 +75,16 @@ These guidelines outline agency-wide expectations for semantic versioning, relea
 -->
 
 ## Local Development
-
+This repository stores JSON data. The tools used to homogenize the raw data live in a separate repository.
 <!--- TODO - with example below:
 This project is a monorepo with several apps. Please see the [api](./api/README.md) and [frontend](./frontend/README.md) READMEs for information on spinning up those projects locally. Also see the project [documentation](./documentation) for more info.
 -->
 
-## Coding Style and Linters
+<!-- ## Coding Style and Linters -->
 
 <!-- TODO - Add the repo's linting and code style guidelines -->
 
-Each application has its own linting and testing guidelines. Lint and code tests are run on each commit, so linters and tests should be run locally before committing.
+<!-- Each application has its own linting and testing guidelines. Lint and code tests are run on each commit, so linters and tests should be run locally before committing. -->
 
 <!--
 ## Branching Model
@@ -101,7 +109,7 @@ Thank you for considering contributing to an Open Source project of the US Gover
 
 ## Community
 
-The {{ cookiecutter.project_name }} team is taking a community-first and open source approach to the product development of this tool. We believe government software should be made in the open and be built and licensed such that anyone can download the code, run it themselves without paying money to third parties or using proprietary software, and use it as they will.
+The `metrics-data` team is taking a community-first and open source approach to the product development of this tool. We believe government software should be made in the open and be built and licensed such that anyone can download the code, run it themselves without paying money to third parties or using proprietary software, and use it as they will.
 
 We know that we can learn from a wide variety of communities, including those who will use or will be impacted by the tool, who are experts in technology, or who have experience with similar technologies deployed in other spaces. We are dedicated to creating forums for continuous conversation and feedback to help shape the design and development of the tool.
 
